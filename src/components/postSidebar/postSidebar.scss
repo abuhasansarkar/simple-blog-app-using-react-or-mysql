@@ -1,0 +1,29 @@
+.postSidebar {
+  h2{
+    font-size: 20px;
+  }
+  .postCard {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    img {
+      width: 100%;
+      border-radius: 10px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    h3 {
+      font-size: 24px;
+      line-height: 1.2em;
+    }
+
+    a {
+      padding: 10px 20px;
+      background: #000;
+      color: #fff;
+      max-width: max-content;
+    }
+  }
+}

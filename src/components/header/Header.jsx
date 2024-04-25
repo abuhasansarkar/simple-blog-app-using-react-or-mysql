@@ -23,7 +23,7 @@ export const Header = () => {
           {user ? (
             <div onClick={() => setOpen(!open)} className="userInfo">
               <img
-                src="https://cdn-icons-png.flaticon.com/512/9131/9131529.png"
+                src="../../../src/assets/user.png"
                 alt="user"
               />
               <span>AbuHasan Sarkar</span>
